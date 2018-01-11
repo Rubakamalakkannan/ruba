@@ -8,7 +8,7 @@ if(num %2==0)
 {
 printf("the the num is even");
 }
-else
+  else
 {
 printf("the num is odd");
 }
