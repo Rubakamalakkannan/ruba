@@ -9,7 +9,8 @@ int main()
 		b=a%10;
 		m=m*b;
 		a=a/10;
-		printf("%d",m);
 	}
+	printf("%d",m);
 	return 0;
 }
+
