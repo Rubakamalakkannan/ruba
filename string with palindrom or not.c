@@ -13,16 +13,16 @@ int isPalindrome(char str[])
     {
         if (str[l++] != str[h--])
         {
-            printf("%s is Not Palindrome", str);
+            printf("no");
             return 0;
         }
     }
-    printf("%s is palindrome", str);
+    printf("yes");
 }
 int main()
 {
     isPalindrome("abba");
-    isPalindrome("abbccbba");
+    
    
     return 0;
 }
